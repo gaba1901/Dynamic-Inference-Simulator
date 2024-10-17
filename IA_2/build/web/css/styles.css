@@ -1,0 +1,96 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : 16/10/2024, 10:20:01 p. m.
+    Author     : wava1
+*/
+
+/* Estilo para el contenedor principal de la página */
+.container {
+    margin-top: 50px; 
+    max-width: 800px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 20px;
+    color: black;
+}
+
+/* Estilo para el fondo de la página con degradado */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #2575fc;
+
+    height: 100vh;
+    text-align: center;
+    justify-content: center;
+    display: block;
+    color: black; 
+}
+
+/* Estilo para los formularios */
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Centra todos los elementos dentro del formulario */
+}
+
+/* Estilo para todos los campos de entrada */
+input[type="text"], select {
+    padding: 12px; /* Espacio interno para mejor estética */
+    margin-bottom: 15px; /* Espacio inferior */
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 100%; /* Ancho completo del contenedor */
+    max-width: 500px; /* Establece un ancho máximo para evitar que se extiendan demasiado */
+    font-size: 16px; /* Tamaño de fuente para consistencia */
+    box-sizing: border-box; /* Asegura que el padding no afecte el ancho total */
+}
+
+/* Estilo para el botón */
+button[type="submit"] {
+    padding: 10px;
+    margin-top: 10px;
+    border: none;
+    background-color: green;
+    color: green;
+    border-radius: 4px;
+    cursor: pointer;
+    max-width: 500px; /* Establece un ancho máximo para que se alinee con los inputs */
+    width: 100%;
+    font-size: 16px;
+}
+
+/* Estilo para las etiquetas */
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    text-align: left; /* Alinea las etiquetas a la izquierda */
+    max-width: 500px; /* Ancho máximo para que se alinee con los inputs */
+}
+
+/* Estilo para las listas */
+ul {
+    list-style-position: inside; /* Alinea el marcador dentro del contenedor del texto */
+    padding: 0; /* Elimina el padding por defecto */
+    margin: 20px auto; /* Centra la lista */
+    text-align: left; /* Alinea el texto a la izquierda */
+    display: inline-block; /* Mantiene la lista centrada */
+}
+
+/* Estilo para los elementos de la lista */
+li {
+    margin-left: 0; /* Asegura que el marcador esté alineado con el texto */
+    font-size: 16px; /* Ajusta el tamaño del texto */
+    color: black; /* Color del texto */
+}
+
+/* Estilo para mensajes de retroalimentación */
+.invalid-feedback {
+    color: red;
+    font-size: 12px;
+    display: none;
+}
