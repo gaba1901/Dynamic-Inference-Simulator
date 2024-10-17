@@ -1,2 +1,2 @@
 # Dynamic-Inference-Simulator
-This project is a dynamic inference simulator based on a rule-based system. It allows users to add and manage rules dynamically and perform inferences based on given conditions. 
+This project is a dynamic inference simulator based on a rule-based system. It allows users to add and manage rules dynamically and perform inferences based on given conditions. The application is designed for flexibility and scalability, making it suitable for various scenarios where rule-based decision-making is needed. The interface is user-friendly, and the system ensures efficient rule evaluation and condition checking. Ideal for educational purposes, prototyping AI systems, or implementing automated decision-making processes.
